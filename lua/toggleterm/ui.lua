@@ -266,7 +266,7 @@ function M._get_float_config(term, opening)
     width = width,
     height = height,
     border = opening and border or nil,
-	focus = true,
+	focusable = true,
   }
 end
 
